@@ -105,7 +105,7 @@ SELECT pg_catalog.setval('store_store_id_seq', 2, true);
 -- Data for Name: actor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE actor DISABLE TRIGGER ALL;
+-- ALTER TABLE actor DISABLE TRIGGER ALL;
 
 INSERT INTO actor (actor_id, first_name, last_name, last_update) VALUES (1, 'PENELOPE', 'GUINESS', '2006-02-15 09:34:33');
 INSERT INTO actor (actor_id, first_name, last_name, last_update) VALUES (2, 'NICK', 'WAHLBERG', '2006-02-15 09:34:33');
@@ -309,23 +309,23 @@ INSERT INTO actor (actor_id, first_name, last_name, last_update) VALUES (199, 'J
 INSERT INTO actor (actor_id, first_name, last_name, last_update) VALUES (200, 'THORA', 'TEMPLE', '2006-02-15 09:34:33');
 
 
-ALTER TABLE actor ENABLE TRIGGER ALL;
+-- ALTER TABLE actor ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: address; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE address DISABLE TRIGGER ALL;
+-- ALTER TABLE address DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE address ENABLE TRIGGER ALL;
+-- ALTER TABLE address ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: category; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE category DISABLE TRIGGER ALL;
+-- ALTER TABLE category DISABLE TRIGGER ALL;
 
 INSERT INTO category (category_id, name, last_update) VALUES (1, 'Action', '2006-02-15 09:46:27');
 INSERT INTO category (category_id, name, last_update) VALUES (2, 'Animation', '2006-02-15 09:46:27');
@@ -345,23 +345,23 @@ INSERT INTO category (category_id, name, last_update) VALUES (15, 'Sports', '200
 INSERT INTO category (category_id, name, last_update) VALUES (16, 'Travel', '2006-02-15 09:46:27');
 
 
-ALTER TABLE category ENABLE TRIGGER ALL;
+-- ALTER TABLE category ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: city; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE city DISABLE TRIGGER ALL;
+-- ALTER TABLE city DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE city ENABLE TRIGGER ALL;
+-- ALTER TABLE city ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: country; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE country DISABLE TRIGGER ALL;
+-- ALTER TABLE country DISABLE TRIGGER ALL;
 
 INSERT INTO country (country_id, country, last_update) VALUES (1, 'Afghanistan', '2006-02-15 09:44:00');
 INSERT INTO country (country_id, country, last_update) VALUES (2, 'Algeria', '2006-02-15 09:44:00');
@@ -474,167 +474,167 @@ INSERT INTO country (country_id, country, last_update) VALUES (108, 'Yugoslavia'
 INSERT INTO country (country_id, country, last_update) VALUES (109, 'Zambia', '2006-02-15 09:44:00');
 
 
-ALTER TABLE country ENABLE TRIGGER ALL;
+-- ALTER TABLE country ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: customer; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE customer DISABLE TRIGGER ALL;
+-- ALTER TABLE customer DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE customer ENABLE TRIGGER ALL;
+-- ALTER TABLE customer ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: film; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE film DISABLE TRIGGER ALL;
+-- ALTER TABLE film DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE film ENABLE TRIGGER ALL;
+-- ALTER TABLE film ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: film_actor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE film_actor DISABLE TRIGGER ALL;
+-- ALTER TABLE film_actor DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE film_actor ENABLE TRIGGER ALL;
+-- ALTER TABLE film_actor ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: film_category; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE film_category DISABLE TRIGGER ALL;
+-- ALTER TABLE film_category DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE film_category ENABLE TRIGGER ALL;
+-- ALTER TABLE film_category ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: inventory; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE inventory DISABLE TRIGGER ALL;
+-- ALTER TABLE inventory DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE inventory ENABLE TRIGGER ALL;
+-- ALTER TABLE inventory ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: language; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE language DISABLE TRIGGER ALL;
+-- ALTER TABLE language DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE language ENABLE TRIGGER ALL;
+-- ALTER TABLE language ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment DISABLE TRIGGER ALL;
+-- ALTER TABLE payment DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment ENABLE TRIGGER ALL;
+-- ALTER TABLE payment ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment_p2007_01; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment_p2007_01 DISABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_01 DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment_p2007_01 ENABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_01 ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment_p2007_02; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment_p2007_02 DISABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_02 DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment_p2007_02 ENABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_02 ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment_p2007_03; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment_p2007_03 DISABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_03 DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment_p2007_03 ENABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_03 ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment_p2007_04; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment_p2007_04 DISABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_04 DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment_p2007_04 ENABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_04 ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment_p2007_05; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment_p2007_05 DISABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_05 DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment_p2007_05 ENABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_05 ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: payment_p2007_06; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE payment_p2007_06 DISABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_06 DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE payment_p2007_06 ENABLE TRIGGER ALL;
+-- ALTER TABLE payment_p2007_06 ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: rental; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE rental DISABLE TRIGGER ALL;
+-- ALTER TABLE rental DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE rental ENABLE TRIGGER ALL;
+-- ALTER TABLE rental ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: staff; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE staff DISABLE TRIGGER ALL;
+-- ALTER TABLE staff DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE staff ENABLE TRIGGER ALL;
+-- ALTER TABLE staff ENABLE TRIGGER ALL;
 
 --
 -- Data for Name: store; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-ALTER TABLE store DISABLE TRIGGER ALL;
+-- ALTER TABLE store DISABLE TRIGGER ALL;
 
 
 
-ALTER TABLE store ENABLE TRIGGER ALL;
+-- ALTER TABLE store ENABLE TRIGGER ALL;
 
 --
 -- PostgreSQL database dump complete
