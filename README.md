@@ -6,6 +6,10 @@ Project that has some dummy data for people to learn SQL using Heroku Dataclips
 Easy peasy.  
 
 ```bash
+git clone https://github.com/karneyli/learn-sql.git
+cd learn-sql
+heroku login
+heroku create
 heroku run bash
 psql $DATABASE_URL -f world.sql
 ```
